@@ -5,7 +5,7 @@ body {
     background-color: #fff;
   }
   
-  /* Hero блок */
+  
   .hero {
     background-color: #e5d4ff;
     padding: 80px 20px;
@@ -52,7 +52,7 @@ body {
     color: white;
   }
   
-  /* Лавандовый блок */
+  
   .section-yellow {
     background-color: #f4e9ff;
     padding: 60px 20px;
@@ -65,7 +65,7 @@ body {
     margin: 0 auto;
   }
   
-  /* Блок карточек */
+  
   .section-white {
     background-color: #f7f0ff;
     padding: 60px 20px;
@@ -100,7 +100,7 @@ body {
   }
   
   .divider_one {
-    width: 100vw; /* от края до края экрана */
+    width: 100vw; 
     height: 2px;
     background: linear-gradient(to right, #b57aff, #7f3fbf, #b57aff);
     box-shadow: 0 2px 10px rgba(127, 63, 191, 0.35);
@@ -111,7 +111,7 @@ body {
   
 
   .divider_two {
-    width: 100vw; /* от края до края экрана */
+    width: 100vw; 
     height: 2px;
     background: linear-gradient(to right, #b57aff, #7f3fbf, #b57aff);
     box-shadow: 0 2px 10px rgba(127, 63, 191, 0.35);
