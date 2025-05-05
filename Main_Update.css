@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #2a003f;
+    background-color: #fff;
+  }
+  
+  /* Hero блок */
+  .hero {
+    background-color: #e5d4ff;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .super {
+    font-size: 28px;
+    display: block;
+    font-weight: normal;
+  }
+  
+  .hero h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #4c0070;
+  }
+  
+  .subtitle {
+    font-size: 22px;
+    color: #3e185f;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    background-color: #d19fff;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #2a003f;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #6b2fa4;
+    color: white;
+  }
+  
+  /* Лавандовый блок */
+  .section-yellow {
+    background-color: #f4e9ff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .text-center {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Блок карточек */
+  .section-white {
+    background-color: #f7f0ff;
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    width: 280px;
+    text-align: left;
+    transition: transform 0.2s ease;
+    border: 2px solid #e0c3ff;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .divider_one {
+    width: 100vw; /* от края до края экрана */
+    height: 2px;
+    background: linear-gradient(to right, #b57aff, #7f3fbf, #b57aff);
+    box-shadow: 0 2px 10px rgba(127, 63, 191, 0.35);
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+
+  .divider_two {
+    width: 100vw; /* от края до края экрана */
+    height: 2px;
+    background: linear-gradient(to right, #b57aff, #7f3fbf, #b57aff);
+    box-shadow: 0 2px 10px rgba(127, 63, 191, 0.35);
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  
+  

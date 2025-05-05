@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: rgb(249, 249, 249);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Vhod_account.css">
+    <title>Вход</title>
+</head>
+<body>
+    <div class="Vhod">
+        <form action="#" method="post" id="login_form">
+            <!--Поле для входа-->
+            <fieldset class="pole_vhod">
+                <legend>Вход</legend>
+                <label>E-mail:
+                    <input type="email" placeholder="Введите ваш e-mail" required class="pochta_vhod" id="email_login">
+                </label>
+                <br>
+                <label>Пароль:
+                    <input type="password" placeholder="Введите ваш пароль" required class="password_vhod" id="password_login">
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="remember_me"  id="remember_me">
+                    Запомнить меня
+                </label>
+                <br>
+                <label>
+                    <button type="submit" class="Voity">Войти</button>
+                </label>
+                <a href="Create_account.html" class="registration_button">Регистрация</a>
+                <div class="error" id="error_login"></div>
+                <div class="succsess" id="success_login"></div>
+                <p><a href="#">Забыли пароль?</a></p>
+            </fieldset>
+        </form>
+    </div>
+    <br>
+</body>
+</html>
